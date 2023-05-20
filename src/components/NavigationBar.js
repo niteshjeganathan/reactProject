@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 
-class navigationBar extends Component {
+class NavigationBar extends Component {
   constructor(props) {
     super(props)
   
@@ -34,4 +34,4 @@ class navigationBar extends Component {
     )
   }
 }
-export default navigationBar
+export default NavigationBar
