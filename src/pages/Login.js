@@ -15,7 +15,6 @@ class Login extends Component {
 
   usernameChanged = (event) => this.setState({username : event.target.value})
   passwordChanged = (event) => this.setState({password : event.target.value})
-  getLoginStatus = () => this.state.loggedIn
 
   onSubmitClicked = () => {
     if(this.state.username === "Nitesh" && this.state.password === "root") {
